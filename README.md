@@ -1,4 +1,4 @@
-# 🏫 Školní RPG: Útěk před monstrem
+# 🏫 Školní RPG: Útěk před monstrem v1.1
 
 Tato hra je jednoduché 2D RPG vytvořené v Pythonu pomocí knihovny `tkinter`. Tvým cílem je nasbírat známky, vyhnout se monstru a dojít k učiteli, který tě zachrání.
 
@@ -39,10 +39,14 @@ Tato hra je jednoduché 2D RPG vytvořené v Pythonu pomocí knihovny `tkinter`.
 
 🧠 Nastavení obtížnosti
 
-Obtížnost	Životy	Počet známek
+Update v1.1 
 
-Lehká	5	3
-Střední	3	5
-Těžká	2	7
+Popis 
 
-Počet známek si můžeš ručně upravit v hlavním menu.
+-📺 Fullscreen režim – hra se nyní spustí na celou obrazovku.
+
+-🗺️ Větší mapa – roste s každou úrovní až do velikosti 15×15.
+
+-Možnost pokračovat do další úrovně po výhře (nová mapa, více známek).
+
+-Překážky (náhodně umístěné zamčené dveře).
