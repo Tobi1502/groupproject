@@ -39,14 +39,62 @@ Tato hra je jednoduché 2D RPG vytvořené v Pythonu pomocí knihovny `tkinter`.
 
 🧠 Nastavení obtížnosti
 
-Update v1.1 
+Update v2
 
 Popis 
 
--📺 Fullscreen režim – hra se nyní spustí na celou obrazovku.
+Nové funkce:
+🧩 Generování mapy s překážkami, které zajišťují, že každá mapa je dohratelná.
 
--🗺️ Větší mapa – roste s každou úrovní až do velikosti 15×15.
+🌌 Fullscreen režim pro lepší zážitek.
 
--Možnost pokračovat do další úrovně po výhře (nová mapa, více známek).
+🕹️ Pět obtížností:
 
--Překážky (náhodně umístěné zamčené dveře).
+Lehká (příšera se hýbe 1× za 3 tahy),
+
+Střední (1× za 2 tahy),
+
+Těžká (každý tah),
+
+Extrémní (2× za tah hráče),
+
+Král baráže (3× za tah hráče).
+
+👹 Chytrý pohyb příšery pomocí algoritmu BFS (vyhýbá se překážkám a sleduje hráče).
+
+🎨 Skinsystém: Základní, Ninja (od lvl 10), Robot (od lvl 25).
+
+📈 Statistiky hráče – úroveň, skóre, poslední výsledek.
+
+📁 Ukládání profilu a skóre (profil.json, skore.json).
+
+📄 Sbírání známek jako podmínka pro dokončení úrovně.
+
+⏸️ Pauza s možností:
+
+Pokračovat ve hře,
+
+Otevřít nastavení zvuku,
+
+Návrat do hlavního menu.
+
+🎚️ Ovládání hlasitosti pomocí slideru.
+
+🔊 Zvuky ve formátu MP3: buben, výbuch, pád, známka, jumpscare.
+
+💀 Jumpscare
+
+🧠 Každý level se zvyšuje obtížností a známkami.
+
+🐞 Opravy chyb:
+✅ Vyřešeno: bílé okno při spuštění kvůli překrytému vstupnímu oknu.
+
+✅ Opraven problém s tím, že se postavy nehýbaly po návratu do menu.
+
+✅ Opraveno zpoždění při pohybu nahoru.
+
+✅ Opraven tk.messagebox → správně importováno jako from tkinter import messagebox.
+
+✅ Správně se zobrazují obrázky postav a známek.
+
+
