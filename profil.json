@@ -1,0 +1,32 @@
+{
+  "rajny": {
+    "level": 11,
+    "skin": "default",
+    "total_score": 770,
+    "last_score": 150
+  },
+  "k": {
+    "level": 6,
+    "skin": "default",
+    "total_score": 400,
+    "last_score": 100
+  },
+  "l": {
+    "level": 1,
+    "skin": "default",
+    "total_score": 0,
+    "last_score": 0
+  },
+  "o": {
+    "level": 3,
+    "skin": "default",
+    "total_score": 130,
+    "last_score": 70
+  },
+  "pepa": {
+    "level": 3,
+    "skin": "default",
+    "total_score": 130,
+    "last_score": 70
+  }
+}
