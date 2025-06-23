@@ -27,7 +27,7 @@ class RPGApp:
         self.profile_file = "profil.json"
         self.scores_file = "skore.json"
         self.player_name = ""
-        self.player_skin = "default"
+        self.player_skin = "Malej Vorel"
         self.profile_data = {}
         self.scores = {}
         self.konami_code = ['up','up','down','down','left','right','left','right','b','a']
@@ -111,11 +111,11 @@ class RPGApp:
             self.profile_data[self.player_name]["skin"] = skin
             self.save_profile()
             win.destroy()
-        tk.Button(win, text="🔵 Základní", command=lambda: set_skin("default")).pack(pady=5)
+        tk.Button(win, text="🔵 Vorel", command=lambda: set_skin("Malej Vorel")).pack(pady=5)
         if self.level >= 10:
-            tk.Button(win, text="⚫ Ninja", command=lambda: set_skin("ninja")).pack(pady=5)
+            tk.Button(win, text="⚫ Toby", command=lambda: set_skin("bilej cigan")).pack(pady=5)
         if self.level >= 25:
-            tk.Button(win, text="⚙️ Robot", command=lambda: set_skin("robot")).pack(pady=5)
+            tk.Button(win, text="⚙️ Satrick", command=lambda: set_skin("cigan")).pack(pady=5)
 
     def sound_settings(self):
         win = tk.Toplevel(self.root)
